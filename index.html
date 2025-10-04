@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎉Ulang Tahun 🎂</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="confetti"></canvas>
+
+  <!-- ===== PAGE 1 ===== -->
+  <div class="page active" id="page1">
+    <div class="wrapper">
+      <h1 class="title">🎉 Selamat Ulang Tahun 🎂</h1>
+      <p class="subtitle">Naura Ramadhani Oshi Fritzy Rosmerian</p>
+
+      <!-- 3 FOTO PAGE 1 -->
+      <div class="images">
+        <img src="img/foto1.jpg" alt="Foto 1" class="photo fadein" />
+        <img src="img/foto2.jpg" alt="Foto 2" class="photo fadein delay1" />
+        <img src="img/foto3.jpg" alt="Foto 3" class="photo fadein delay2" />
+      </div>
+
+      <button id="playBtn">▶ eitss putar Musik dulu</button><br />
+      <button class="nextBtn">➡ Okey Lanjut</button>
+    </div>
+  </div>
+
+  <!-- ===== PAGE 2 ===== -->
+  <div class="page" id="page2">
+    <div class="wrapper">
+      <h1 class="title">💌 Wish You All The Best</h1>
+      <p class="subtitle">
+        Semoga semua impianmu segera terwujud yaa 🌈<br />
+        maaf dulu aku terlalu berlebihan sama kamu, lupakan aja yaa anggap aja ga pernah hehe<br /><br />
+        Kamu pantas mendapatkan yang terbaik — hari ini dan setiap hari. 🌟
+      </p>
+
+      <!-- 4 FOTO PAGE 2 -->
+      <div class="images">
+        <img src="img/foto4.jpg" alt="Foto 4" class="photo fadein" />
+        <img src="img/foto5.jpg" alt="Foto 5" class="photo fadein delay1" />
+        <img src="img/foto6.jpg" alt="Foto 6" class="photo fadein delay2" />
+      </div>
+
+      <br />
+      <button class="nextBtn" id="backBtn">⬅ Kembali Ke Awal</button>
+    </div>
+  </div>
+
+  <!-- Musik -->
+  <audio id="bg-music" loop>
+    <source src="supernatural.mp3" type="audio/mpeg" />
+    Browser kamu tidak mendukung audio.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
