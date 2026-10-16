@@ -74,7 +74,11 @@ nextBtns.forEach((btn) => {
 
 function fadeTransition(fromPage, toPage) {
   fromPage.classList.remove("active");
+
   setTimeout(() => {
     toPage.classList.add("active");
+
+    // Kembali ke posisi paling atas
+    toPage.scrollTop = 0;
   }, 500);
 }
